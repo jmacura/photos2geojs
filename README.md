@@ -1,7 +1,7 @@
 # photos2geojs
 Simple tool to convert georeferenced images into a collection of points in GeoJSON
 
-This tool does generally the same thing as https://github.com/briangkatz/gps-photos-to-geojson, but it does not rely on huge 3rd party tools like QGIS. All you have to install are the following dendencies: Pillow and geojson.
+This tool does generally the same thing as https://github.com/briangkatz/gps-photos-to-geojson, but it does not rely on huge 3rd party tools like QGIS. All you have to install are the following dependencies: Pillow and geojson.
 
 ## Install
 
