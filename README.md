@@ -7,15 +7,15 @@ This tool does generally the same thing as https://github.com/briangkatz/gps-pho
 
 * Install Python 3.x
 * Download `photos2geojs.py` (or clone this repository)
-* ``` pip install Pillow geojson ```
+* ``` pip install Pillow geojson ``` (or ``` pip install -r requirements.txt ```)
 
 ## Usage
 The tool takes all the JPEG files in one folder and creates a GeoJSON containing FeatureCollection of Points, where each point represents the location of one photo. To simply identify the individual point, the image's file name is saved as the "id" property of each point.
 
-* ``` photos2geojs.py ```
+* ``` python photos2geojs.py ```
 * the `photos.geojson` file will appear in your working directory
 
-Check the `photos.geojson` file in this repository to have an idea what it creates.
+Check the `photos.geojson` file in this repository to have an idea what gets created.
 
 You can use `--ignore-empty` and `--skip-empty` options to control the output for images without georeference.
 
